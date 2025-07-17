@@ -132,6 +132,21 @@ main > section {
 .feature-description {
   color: #727272;
 }
+#experience-badge {
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -120px;
+}
+#experience-badge #experience-year {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.featured-architect img {
+  width: 100%;
+}
 
 /* Some facts section styles */
 .facts-counter-cards {
@@ -168,6 +183,7 @@ main > section {
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-links,
+  .features,
   .teams {
     flex-direction: column;
   }
@@ -195,6 +211,10 @@ main > section {
 
   .our-features {
     margin-left: 50px;
+  }
+  #experience-badge {
+    margin-top: 20px;
+    margin-left: 80px;
   }
 }
 
