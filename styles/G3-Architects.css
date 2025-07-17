@@ -104,6 +104,24 @@ main > section {
   max-width: 33.75rem;
   margin-left: 76px;
 }
+
+/* Some facts section styles */
+.facts-counter-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 124px;
+}
+.face-card {
+  width: 200px;
+  text-align: center;
+  border: 1px solid #ff900e;
+  padding: 20px 30px;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Responsive  media query*/
 
 @media screen and (max-width: 576px) {
