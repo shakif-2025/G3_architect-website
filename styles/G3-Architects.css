@@ -33,6 +33,14 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main > section {
+  margin-top: 130px;
+}
 
 /* Navbar styles */
 .navbar {
@@ -72,7 +80,22 @@
   width: 100%;
 }
 
-/* Responsive */
+/* Team and feature related styles */
+.teams {
+  align-items: center;
+  gap: ;
+}
+.team-image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.our-features {
+  max-width: 33.75rem;
+  margin-left: 76px;
+}
+/* Responsive  media query*/
 
 @media screen and (max-width: 576px) {
   .navbar,
